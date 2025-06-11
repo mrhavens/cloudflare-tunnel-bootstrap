@@ -1,0 +1,19 @@
+# ─────────────────────────────────────────────────────────────
+# 🌐 Cloudflare Tunnel Configuration Template
+# Rename to config.yml or generate from this template via script
+# ─────────────────────────────────────────────────────────────
+
+tunnel: INSERT_TUNNEL_ID_HERE
+credentials-file: /home/YOUR_USERNAME/.cloudflared/INSERT_TUNNEL_ID_HERE.json
+
+ingress:
+  - hostname: samson.thefoldwithin.earth
+    service: http://localhost:8000
+
+  - hostname: ssh.samson.thefoldwithin.earth
+    service: ssh://localhost:22
+
+  - hostname: rpc.samson.thefoldwithin.earth
+    service: http://localhost:8545
+
+  - service: http_status:404
