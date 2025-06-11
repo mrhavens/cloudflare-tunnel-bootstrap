@@ -1,0 +1,19 @@
+{
+  "canonical_url": "https://remember.thefoldwithin.earth/mrhavens/cloudflare-tunnel-bootstrap",
+  "mirrors": [
+    "https://github.com/mrhavens/cloudflare-tunnel-bootstrap",
+    "https://gitlab.com/mrhavens/cloudflare-tunnel-bootstrap",
+    "https://bitbucket.org/thefoldwithin/cloudflare-tunnel-bootstrap",
+    "https://remember.thefoldwithin.earth/mrhavens/cloudflare-tunnel-bootstrap",
+    "https://codeberg.org/mrhavens/cloudflare-tunnel-bootstrap",
+    "https://gitea.com/mrhavens/cloudflare-tunnel-bootstrap",
+    "rad:z3FEj7rF8gZw9eFksCuiN43qjzrex"
+  ],
+  "radicle": {
+    "rid": "rad:z3FEj7rF8gZw9eFksCuiN43qjzrex",
+    "peer_id": "z6Mkw5s3ppo26C7y7tGK5MD8n2GqTHS582PPpeX5Xqbu2Mpz"
+  },
+  "gpg_signatures": [
+
+  ]
+}
